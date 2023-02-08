@@ -1,0 +1,19 @@
+{
+    "name": "tsetsee/smspusher",
+    "description": "Send sms to the client",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tsetsee\\SmsPusher\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tsetsee"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "tsetsee/tse-guzzle": "^1.0"
+    }
+}
